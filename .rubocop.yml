@@ -1,0 +1,18 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
+# Style
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*.rb'
+
+# Metrics
+
+Metrics/BlockLength:
+  Exclude:
+    - 'telegram-bot-response_builder.gemspec'
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  Max: 100
